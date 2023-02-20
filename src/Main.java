@@ -1,21 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car("LADA", 1);
-        Car car2 = new Car("AUDI", 1);
+        Car car = new Car("bmx", 1);
+        Car car2 = new Car("bmx", 1);
         car.setModelName("car1");
         car2.setModelName("car2");
         car.setWheelsCount(4);
         car2.setWheelsCount(4);
 
-        Truck truck = new Truck("BMW", 1);
-        Truck truck2 = new Truck("Mercedes", 1);
+        Truck truck = new Truck("bmx", 1);
+        Truck truck2 = new Truck("bmx", 1);
         truck.setModelName("truck1");
         truck2.setModelName("truck2");
         truck.setWheelsCount(6);
         truck2.setWheelsCount(8);
 
-        Bicycle bicycle = new Bicycle("BMX", 1);
-        Bicycle bicycle2 = new Bicycle("SCOUT", 1);
+        Bicycle bicycle = new Bicycle("bmx", 1);
+        Bicycle bicycle2 = new Bicycle("bmx", 1);
         bicycle.setModelName("bicycle1");
         bicycle2.setModelName("bicycle2");
         bicycle.setWheelsCount(2);
