@@ -7,6 +7,7 @@ public class Main {
         car.setWheelsCount(4);
         car2.setWheelsCount(4);
 
+
         Truck truck = new Truck("bmx", 1);
         Truck truck2 = new Truck("bmx", 1);
         truck.setModelName("truck1");
@@ -14,12 +15,14 @@ public class Main {
         truck.setWheelsCount(6);
         truck2.setWheelsCount(8);
 
+
         Bicycle bicycle = new Bicycle("bmx", 1);
         Bicycle bicycle2 = new Bicycle("bmx", 1);
         bicycle.setModelName("bicycle1");
         bicycle2.setModelName("bicycle2");
         bicycle.setWheelsCount(2);
         bicycle2.setWheelsCount(2);
+
 
         ServiceStation station = new ServiceStation();
         station.check(car, null, null);
