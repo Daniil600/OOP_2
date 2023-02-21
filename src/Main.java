@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Car car = new Car("bmx", 1);
         Car car2 = new Car("bmx", 1);
+
         car.setModelName("car1");
         car2.setModelName("car2");
         car.setWheelsCount(4);
@@ -18,6 +19,7 @@ public class Main {
 
         Bicycle bicycle = new Bicycle("bmx", 1);
         Bicycle bicycle2 = new Bicycle("bmx", 1);
+
         bicycle.setModelName("bicycle1");
         bicycle2.setModelName("bicycle2");
         bicycle.setWheelsCount(2);
@@ -25,6 +27,7 @@ public class Main {
 
 
         ServiceStation station = new ServiceStation();
+
         station.check(car, null, null);
         station.check(car2, null, null);
         station.check(null, bicycle, null);
